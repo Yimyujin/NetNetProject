@@ -27,16 +27,16 @@ public class Cosmetic_ingredient extends ActionBarActivity {
             R.drawable.ing_null,R.drawable.ing_one, R.drawable.ing_two, R.drawable.ing_three, R.drawable.ing_four,
             R.drawable.ing_five, R.drawable.ing_six, R.drawable.ing_seven, R.drawable.ing_eight, R.drawable.ing_nine
     };
-     @Override
+    @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cosmetic_ingredient);
         getSupportActionBar().setTitle("화장품 성분 정보");
         mListView = (ListView) findViewById(R.id.ls_cos_ingredient);
         mAdapter = new ListViewAnalysisAdapter(this);
-         res = getResources();
-         setTable();
-         insertData();
+        res = getResources();
+        setTable();
+        insertData();
     }
 
     public void setTable(){

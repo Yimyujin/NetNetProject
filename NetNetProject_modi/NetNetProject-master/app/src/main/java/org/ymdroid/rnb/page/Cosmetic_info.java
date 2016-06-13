@@ -69,9 +69,9 @@ public class Cosmetic_info extends ActionBarActivity {
                 check7to9++;
             else if(cosInfo.danger[i] > 1 && cosInfo.danger[i] < 7)
                 check2to6++;
-         //   avscore+=cosInfo.danger[i];
+            //   avscore+=cosInfo.danger[i];
         }
-       // avscore/=size;
+        // avscore/=size;
         cosSafety.setText((100-(check7to9*4)-(check2to6*2)) + " %");
     }
 
@@ -91,10 +91,10 @@ public class Cosmetic_info extends ActionBarActivity {
             img.setImageBitmap(BitmapFactory.decodeResource(res, tmp.img));
             TextView cost = (TextView) findViewById(rccost[i]);  //문자가 너무 길어서 잘랐어
             //if(String.valueOf(tmp.name).length() > 10) {
-                cost.setText(String.valueOf(tmp.name.substring(0,9)+"..."));
+            cost.setText(String.valueOf(tmp.name.substring(0,9)+"..."));
             //}
             //else
-           //     cost.setText(String.valueOf(tmp.name));
+            //     cost.setText(String.valueOf(tmp.name));
         }
         averageScore();
     }

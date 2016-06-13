@@ -42,7 +42,7 @@ public class Join_nextpage extends FragmentActivity {
     CheckBox cb_sensitive_skin;
     Spinner spinner;
     ArrayAdapter adapter;
-  //  private ArrayAdapter<String> mSpinnerAdapter = null;
+    //  private ArrayAdapter<String> mSpinnerAdapter = null;
     private ListView mListView = null;
     private ListAllergyAdapter mAdapter = null;
 
@@ -115,7 +115,7 @@ public class Join_nextpage extends FragmentActivity {
                                     for (int position : reverseSortedPositions) {
                                         mAdapter.remove(position);
                                         Log.d(TAG,"position :" + position);
-                                       // listArr[] = 0; //position이 아니라.. 지웠던 걸 찾아가야댐
+                                        // listArr[] = 0; //position이 아니라.. 지웠던 걸 찾아가야댐
                                     }
                                     mAdapter.notifyDataSetChanged();
                                 }
@@ -282,9 +282,9 @@ public class Join_nextpage extends FragmentActivity {
             }
 
             Intent i = new Intent(Join_nextpage.this, Menu.class);
-                startActivity(i);
-                finish();
-                Toast.makeText(getApplicationContext(), "회원 가입을 완료합니다.", Toast.LENGTH_LONG).show();
+            startActivity(i);
+            finish();
+            Toast.makeText(getApplicationContext(), "회원 가입을 완료합니다.", Toast.LENGTH_LONG).show();
         }
         catch(Exception ex)
         {

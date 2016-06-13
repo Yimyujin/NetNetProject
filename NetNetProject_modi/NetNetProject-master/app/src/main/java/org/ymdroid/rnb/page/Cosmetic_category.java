@@ -54,7 +54,7 @@ public class Cosmetic_category extends ActionBarActivity
             }
         });
     }
-   public void setItmeList(){
+    public void setItmeList(){
         int size = cosInfoDAO.cosInfos.size();
         for(int i=0; i<size; i++){
             CosInfo cosInfo = cosInfoDAO.cosInfos.get(i);

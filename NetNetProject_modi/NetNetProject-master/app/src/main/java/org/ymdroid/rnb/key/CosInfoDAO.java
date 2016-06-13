@@ -39,7 +39,7 @@ public class CosInfoDAO {
         A.type = "스킨";
         A.lowPrice = 8910;
         A.highPrice = 26180;
-        A.code = "792850136991";
+        A.code = "8809209050036";
         A.krIng[0] = "정제수";
         A.krIng[1] = "부틸렌글라이콜";
         A.krIng[2] = "에탄올";
@@ -62,8 +62,8 @@ public class CosInfoDAO {
         A.krIng[19] = "글리세린";
         A.krIng[20] = "아크릴레이트/스테아릴메타크릴레이트코폴리머";
         A.krIng[21] = "트로메타민";
-        A.krIng[22] = "향료";
-        A.krIng[23] = "디소듐이디티에이";
+        A.krIng[22] = "디소듐이디티에이";
+        A.krIng[23] = "향료";
 
         A.enIng[0] = "Water Aqua";
         A.enIng[1] = "Butylene Glycol";
@@ -87,8 +87,8 @@ public class CosInfoDAO {
         A.enIng[19] = "Glycerin";
         A.enIng[20] = "Acrylates/Stearyl Methacrylate Copolymer";
         A.enIng[21] = "Tromethamine";
-        A.enIng[22] = "Flavor";
-        A.enIng[23] = "DisodiumEDTA";
+        A.enIng[22] = "Disodium EDTA";
+        A.enIng[23] = "Flavor";
 
         A.danger[0] = 1;
         A.danger[1] = 1;
@@ -112,8 +112,8 @@ public class CosInfoDAO {
         A.danger[19] = 2;
         A.danger[20] = 0;
         A.danger[21] = 2;
-        A.danger[22] = 8;
-        A.danger[23] = 1;
+        A.danger[22] = 1;
+        A.danger[23] = 8;
 
         A.rv.add(new Review("UserA", 3, "SoSo"));
         A.rv.add(new Review("임유", 2, "그냥저냥"));
@@ -180,8 +180,8 @@ public class CosInfoDAO {
         A.krIng[42] = "잔탄검";
         A.krIng[43] = "라우레스-7";
         A.krIng[44] = "디소듐이디티에이";
-        A.krIng[45] = "향료";
-        A.krIng[46] = "아스코빌팔미테이트";
+        A.krIng[45] = "아스코빌팔미테이트";
+        A.krIng[46] = "향료";
 
 
         A.enIng[0] = "Water Aqua";
@@ -229,8 +229,8 @@ public class CosInfoDAO {
         A.enIng[42] = "Xanthan Gum";
         A.enIng[43] = "Laureth-7";
         A.enIng[44] = "Disodium EDTA";
-        A.enIng[45] = "Flavor";
-        A.enIng[46] = "AscorbylPalmitate";
+        A.enIng[45] = "Ascorbyl Palmitate";
+        A.enIng[46] = "Flavor";
 
         A.danger[0] = 1;
         A.danger[1] = 2;
@@ -277,8 +277,8 @@ public class CosInfoDAO {
         A.danger[42] = 1;
         A.danger[43] = 3;
         A.danger[44] = 1;
-        A.danger[45] = 8;
-        A.danger[46] = 1;
+        A.danger[45] = 1;
+        A.danger[46] = 8;
 
 
         A.rv.add(new Review("UserB", 2, "별로다"));
@@ -329,8 +329,8 @@ public class CosInfoDAO {
         A.krIng[22] = "에칠헥실글리세린";
         A.krIng[23] = "폴리실리콘-11";
         A.krIng[24] = "피이지-100스테아레이트";
-        A.krIng[25] = "디소듐이디티에이";
-        A.krIng[26] = "트로메타민";
+        A.krIng[25] = "트로메타민";
+        A.krIng[26] = "디소듐이디티에이";
 
         A.enIng[0] = "Water Aqua";
         A.enIng[1] = "Butylene Glycol";
@@ -357,8 +357,8 @@ public class CosInfoDAO {
         A.enIng[22] = "Ethylhexylglycerin";
         A.enIng[23] = "Polysilicone-11";
         A.enIng[24] = "PEG-100 Stearate";
-        A.enIng[25] = "DisodiumEDTA";
-        A.enIng[26] = "Tromethamine";
+        A.enIng[25] = "Tromethamine ";
+        A.enIng[26] = "Disodium EDTA";
 
         A.danger[0] = 1;
         A.danger[1] = 1;
@@ -385,8 +385,8 @@ public class CosInfoDAO {
         A.danger[22] = 1;
         A.danger[23] = 1;
         A.danger[24] = 3;
-        A.danger[25] = 1;
-        A.danger[26] = 2;
+        A.danger[25] = 2;
+        A.danger[26] = 1;
 
         A.rv.add(new Review("TasteHam", 5, "또 구입할것같네요"));
         A.rv.add(new Review("비싼지름길", 1, "제 피부랑은 안 맞는 것 같아요.. 제꺼 사실분.."));
@@ -395,7 +395,7 @@ public class CosInfoDAO {
         A.rv.add(new Review("임유", 5, "추천합니다! 강추에요~~"));
         A.rv.add(new Review("정유", 3, "발림성이 좋아요."));
         A.rv.add(new Review("4", 4, "딱 제 타입입니다."));
-
+        A.rc = new int[]{0,4};
         cosInfos.add(A);
 
 
@@ -492,6 +492,7 @@ public class CosInfoDAO {
         A.rv.add(new Review("임유", 2, "향기가 너무 좋아요. 향기만 좋아요..."));
         A.rv.add(new Review("정유", 4, "건조해서 좋아요. 끈적이지 않아요."));
         A.rv.add(new Review("4", 4, "딱 제 타입입니다."));
+        A.rc = new int[]{1,2};
         cosInfos.add(A);
 
 
@@ -501,7 +502,7 @@ public class CosInfoDAO {
         A.name = "라네즈 밸런싱 에멀전 모이스처";
         A.brand = "라네즈";
         A.type = "로션";
-        A.code = "0";
+        A.code = "9789688874103";
         A.lowPrice = 17110;
         A.highPrice = 42530;
         A.krIng[0] = "정제수";
@@ -546,8 +547,8 @@ public class CosInfoDAO {
         A.krIng[39] = "칼슘클로라이드";
         A.krIng[40] = "트로메타민";
         A.krIng[41] = "디소듐이디티에이";
-        A.krIng[42] = "향료";
-        A.krIng[43] = "페녹시에탄올";
+        A.krIng[42] = "페녹시에탄올";
+        A.krIng[43] = "향료";
 
         A.enIng[0] = "Water Aqua";
         A.enIng[1] = "Butylene Glycol";
@@ -591,8 +592,8 @@ public class CosInfoDAO {
         A.enIng[39] = "Calcium Chloride ";
         A.enIng[40] = "Tromethamine";
         A.enIng[41] = "Disodium EDTA";
-        A.enIng[42] = "Flavor";
-        A.enIng[43] = "Phenoxyethanol";
+        A.enIng[42] = "Phenoxyethanol";
+        A.enIng[43] = "Flavor";
 
 
         A.danger[0] = 1;
@@ -637,8 +638,8 @@ public class CosInfoDAO {
         A.danger[39] = 1;
         A.danger[40] = 2;
         A.danger[41] = 1;
-        A.danger[42] = 8;
-        A.danger[43] = 4;
+        A.danger[42] = 4;
+        A.danger[43] = 8;
 
         A.rv.add(new Review("UserA", 4, "딱 제 타입입니다."));
         A.rv.add(new Review("UserB", 1, "리뷰 보고 구매했는데 별로네요...ㅠㅠ"));
@@ -649,7 +650,7 @@ public class CosInfoDAO {
         A.rv.add(new Review("정유", 2, "저한테는 잘 안맞았어요. 별로네요"));
         A.rv.add(new Review("4", 4, "딱 제 타입입니다."));
 
-
+        A.rc = new int[]{0};
         cosInfos.add(A);
     }
 

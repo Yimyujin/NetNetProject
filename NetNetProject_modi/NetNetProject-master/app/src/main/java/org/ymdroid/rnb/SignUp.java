@@ -52,7 +52,6 @@ public class SignUp extends FragmentActivity {
         String uemail = email.getText().toString();
         String uname = name.getText().toString();
 
-        Key.user_email = uemail;
         if(passwd.getBytes().length <= 0 || confirmPW.getBytes().length <= 0 || uemail.getBytes().length <= 0 || uname.getBytes().length <= 0){
             //빈값이 넘어올때의 처리
             Toast.makeText(SignUp.this, "값을 입력하세요.", Toast.LENGTH_SHORT).show();
@@ -63,6 +62,8 @@ public class SignUp extends FragmentActivity {
                 confirmPasswd.setTextColor(Color.BLACK);
                 if (passwd.equals(confirmPW)) {
                     //비밀번호 확인 하기
+                    Key.user_email = uemail;
+                    Key.user_passwd = passwd;
                     confirmPasswd.setTextColor(Color.BLACK);
                     obj = new JSONObject();
                     obj.put("uemail", uemail);
