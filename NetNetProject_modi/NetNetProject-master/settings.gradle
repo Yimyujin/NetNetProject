@@ -1,0 +1,2 @@
+include ':app', ':org.apache.httpcomponents.httpclient_4.5.2', ':okhttp-3.2.0'
+include ':libraries:tess-two'

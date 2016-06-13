@@ -1,0 +1,26 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<resources>
+
+    <string-array name="array_list">
+        <item>@string/list_item_01</item>
+        <item>@string/list_item_02</item>
+        <item>@string/list_item_03</item>
+        <item>@string/list_item_04</item>
+        <item>@string/list_item_05</item>
+        <item>@string/list_item_06</item>
+    </string-array>
+
+    <string-array name="array_allergy">
+        <item>@string/allergy_item_01</item>
+        <item>@string/allergy_item_02</item>
+        <item>@string/allergy_item_03</item>
+        <item>@string/allergy_item_04</item>
+        <item>@string/allergy_item_05</item>
+        <item>@string/allergy_item_06</item>
+        <item>@string/allergy_item_07</item>
+        <item>@string/allergy_item_08</item>
+        <item>@string/allergy_item_09</item>
+        <item>@string/allergy_item_10</item>
+        <item>@string/allergy_item_11</item>
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">NET.NET</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="user_name">Name</string>
+    <string name="user_email">E-mail</string>
+    <string name="user_password">Password</string>
+    <string name="user_password_re">Password를 다시 입력해주세요</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_Join">JOIN</string>
+    <string name="btn_link_to_Join">회원가입</string>
+    <string name="btn_link_to_login">로그인 페이지로 돌아가기</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="ID">ID</string>
+    <string name="joinnow">OK</string>
+    <string name="title_hint">제목을 입력하세요.</string>
+    <string name="title_label">제목</string>
+    <string name="content_label">내용</string>
+    <string name="content_hint">내용을 입력하세요.</string>
+
+    <string name="list_item_01">전체보기</string>
+    <string name="list_item_02">스킨케어</string>
+    <string name="list_item_03">베이스메이크업</string>
+    <string name="list_item_04">아이메이크업.</string>
+    <string name="list_item_05">립메이크업</string>
+    <string name="list_item_06">블러셔/하이라이터</string>
+
+
+    <string name="allergy_prompt">프롬프트 테스트입니다</string>
+
+    <string name="allergy_item_01">알레르기성 접촉 습진</string>
+    <string name="allergy_item_02">접속성 습진</string>
+    <string name="allergy_item_03">발한장애성 습진</string>
+    <string name="allergy_item_04">신경피부염</string>
+    <string name="allergy_item_05">동전 습진</string>
+    <string name="allergy_item_06">지루 습진</string>
+    <string name="allergy_item_07">스테이시스 피부염</string>
+    <string name="allergy_item_08">피부묘기증</string>
+    <string name="allergy_item_09">압박두드러기</string>
+    <string name="allergy_item_10">한랭두드러기</string>
+    <string name="allergy_item_11">열두드러기</string>
+
+
+</resources>
